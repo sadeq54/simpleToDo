@@ -1,0 +1,13 @@
+# Ensure all text files use LF in the repository
+* text=auto
+
+# Explicitly handle line endings for specific file types
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.gif binary
